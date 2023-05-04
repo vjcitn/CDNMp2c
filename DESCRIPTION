@@ -1,7 +1,7 @@
 Package: CDNMp2c
 Date: 2022-10-01
 Title: pkgdown for lab pathway to cloud
-Version: 0.0.0
+Version: 0.0.1
 Authors@R: 
     c(person(
         "Vincent", "Carey", role = c("aut", "cre"),

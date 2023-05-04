@@ -2,10 +2,10 @@
 % Please edit documentation in R/shell.R
 \name{shell}
 \alias{shell}
-\title{there are no functions in this package at this time}
+\title{there are no functions in this package at this time, just enjoy the vignettes}
 \usage{
 shell()
 }
 \description{
-there are no functions in this package at this time
+there are no functions in this package at this time, just enjoy the vignettes
 }
