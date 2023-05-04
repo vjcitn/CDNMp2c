@@ -1,0 +1,11 @@
+pandoc: '2.5'
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  A1_representation: A1_representation.html
+  CDNMp2c: CDNMp2c.html
+last_built: 2023-05-04T17:34Z
+urls:
+  reference: https://github.com/vjcitn/CDNMp2c/reference
+  article: https://github.com/vjcitn/CDNMp2c/articles
+

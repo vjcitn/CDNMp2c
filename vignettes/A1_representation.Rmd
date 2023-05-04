@@ -1,0 +1,46 @@
+---
+title: "CDNMp2c A1: representing GWAS at personal and summary resolutions"
+author: "Vincent J. Carey, stvjc at channing.harvard.edu"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{CDNMp2c A1: representing GWAS at personal and summary resolutions}
+  %\VignetteEncoding{UTF-8}
+output:
+  BiocStyle::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+```{r setup,echo=FALSE,results="hide",message=FALSE}
+library(BiocHail)
+library(BiocStyle)
+```
+
+# Purpose
+
+Describe some approaches currently ongoing in Vince Carey's group
+to facilitate work with GWAS and GWAS summary statistics.
+
+# Methods
+
+## BiocHail = R + Python + Scala + Spark
+
+Bioconductor 3.17 package `r Biocpkg("BiocHail")` includes facilities
+that demonstrate how a) we can perform GWAS using Hail within R and b) we can
+work with 7200+ phenotypes from UKBB, again in the Hail framework.
+
+These activities can be conducted with any CPU but benefit from Spark
+cluster + hadoop.  A basic question is -- how many cloud storage providers
+can be used to interrogate MatrixTables via HTTPS?  Currently it seems only
+GCP dataproc and Google storage can be used for such focused interrogation.
+
+## BiocT2T = R + Hail
+
+See [https://vjcitn.github.io/BiocT2T](the BiocT2T pkgdown site) to see how
+to work with 3202 variant profiles (only chr17) in the T2T-CHM13 reference build.
+
+This involves a 65 GB MatrixTable.  We use egress-free storage provided to VJC
+by NSF to place the MatrixTable on user's local drive.

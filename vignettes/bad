@@ -1,0 +1,17 @@
+# CDNMp2c -- use cases for migrating lab to cloud
+
+See the Articles tab for full details.  Here are some tasters:
+
+## BiocHail 
+
+This is only a snapshot of a hail.is curriculum ... see [BiocHail](http://bioconductor.org/packages/release/bioc/vignettes/BiocHail/inst/doc/gwas_tut.html) for the real thing in
+Bioconductor
+
+![](man/figures/bhail.jpg)
+
+## BiocT2T
+
+Install vjcitn/BiocT2T to use the stratapp function to investigate population
+stratification
+
+![](man/figures/t2tapp.jpg)

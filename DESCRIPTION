@@ -1,0 +1,21 @@
+Package: CDNMp2c
+Date: 2022-10-01
+Title: pkgdown for lab pathway to cloud
+Version: 0.0.0
+Authors@R: 
+    c(person(
+        "Vincent", "Carey", role = c("aut", "cre"),
+        email = "stvjc@channing.harvard.edu",
+        comment = c(ORCID = "0000-0003-4046-0063")
+     )
+    )
+Description: CDNMp2c -- pkgdown for lab pathway to cloud
+License: Artistic-2.0
+Encoding: UTF-8
+Depends: R (>= 3.6), dplyr
+Suggests: knitr, testthat, BiocStyle, BiocHail
+VignetteBuilder: knitr
+biocViews: Infrastructure
+RoxygenNote: 7.2.3
+URL: https://github.com/vjcitn/CDNMp2c
+BugReports: https://github.com/vjcitn/CDNMp2c/issues
