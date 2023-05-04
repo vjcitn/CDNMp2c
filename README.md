@@ -12,7 +12,7 @@ See the "Get started" and "Articles" tabs above for details.  As a taster, we ha
 #### BiocHail
 
 We have an R package in Bioconductor that runs through the following
-topics (this is just a screenshot, visit [BiocHail at Bioconductor](http://bioconductor.org/packages/release/bioc/vignettes/BiocHail/inst/doc/gwas_tut.html) for the real thing in
+topics (this is just a screenshot, visit [BiocHail at Bioconductor](http://bioconductor.org/packages/release/bioc/vignettes/BiocHail/inst/doc/gwas_tut.html) for the real thing
 at Bioconductor for details):
 
 ![](man/figures/bhail.jpg)

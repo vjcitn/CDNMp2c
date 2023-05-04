@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   A1_representation: A1_representation.html
   CDNMp2c: CDNMp2c.html
-last_built: 2023-05-04T17:34Z
+last_built: 2023-05-04T17:40Z
 urls:
   reference: https://github.com/vjcitn/CDNMp2c/reference
   article: https://github.com/vjcitn/CDNMp2c/articles
